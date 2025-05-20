@@ -7,7 +7,11 @@ import '../styles/App.css';
 
 export default function App() {
   return (
+    
+
     <div className='body'>
+
+      <title>Quiz App</title>
 
       <Header />
 

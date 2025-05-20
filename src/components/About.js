@@ -14,6 +14,8 @@ export default function About() {
     return (
         <div className='body'>
 
+            <title>Quiz App</title>
+
             <Header />
 
             <main className='main-home-sobre'>

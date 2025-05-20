@@ -8,6 +8,9 @@ import '../styles/App.css';
 export default function Quiz() {
   return (
     <div className='body'>
+
+      <title>Quiz App</title>
+      
       <Header />
 
       <main className='main-quiz'>
