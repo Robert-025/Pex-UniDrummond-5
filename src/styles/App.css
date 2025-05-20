@@ -509,6 +509,12 @@ label {
     font-size: 1.05rem;
   }
 
+  .espaco-botao-final {
+    width: auto;
+    height: 3.125rem;
+    padding: 0 1rem;
+  }
+
   .frases-sobre img {
     width: 200px;
     height: 200px;
