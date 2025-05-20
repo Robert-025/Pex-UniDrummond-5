@@ -385,6 +385,13 @@ label {
 
 @media (max-width: 999px) {
 
+  .main-home {
+    background-image: url("../img/Doc1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 65rem;
+  }
+
   .content-cabecalho {
     height: auto;
     display: grid;
@@ -419,6 +426,7 @@ label {
     height: auto;
     padding: 1.2rem 0px 1.2rem 0px;
     display: grid;
-    
+    justify-items: center;
+    text-align: center;
   }
 }
