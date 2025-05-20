@@ -16,7 +16,7 @@ export default function About() {
 
             <Header />
 
-            <main className='main-home'>
+            <main className='main-home-sobre'>
                 <div className="content">
                     <div className="conteudo-titulo">
                         <div className="titulo">
