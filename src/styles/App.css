@@ -443,6 +443,11 @@ label {
     text-align: center;
   }
 
+  .espaco-botao a {
+    width: auto;
+    padding: 0 1rem;
+  }
+
   .espaco-botao-quiz button {
     width: auto;
     height: 3.125rem;
@@ -487,6 +492,11 @@ label {
 
   label {
     font-size: 1.05rem;
+  }
+
+  .espaco-botao a {
+    width: auto;
+    padding: 0 0.6rem;
   }
 
   .espaco-botao-quiz button {

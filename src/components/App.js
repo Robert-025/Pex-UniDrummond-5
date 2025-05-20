@@ -22,22 +22,6 @@ export default function App() {
               <h1>Início</h1>
             </div>
           </div>
-          {/* <div className="conteudo-entrada">
-            <div className="entrada">
-              <p>
-                Seja bem-vindo ao nosso quiz sobre segurança da informação. Esse questionário tem como principal missão saber como estão informados os usuários comuns sobre golpes, invasões e prevenções de vazamento de dados.
-                <br /><br />
-                Esse projeto foi construído por 4 alunos, que serão descritos abaixo. Esse será nosso projeto de avaliação semestral.
-                Integrantes:
-              </p>
-              <p>
-                Caio Dias<br />
-                Gustavo Trevisani<br />
-                Malcoln Franca<br />
-                Robert Sena
-              </p>
-            </div>
-          </div> */}
           <div className="conteudo-dados">
             <div className="frases">
               <p>
