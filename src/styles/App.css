@@ -419,6 +419,11 @@ label {
     width: 100%;
   }
 
+  .direitos {
+    font-size: 18px;
+    text-align: center;
+  }
+
   .links-cabecalho a:hover {
     text-decoration: underline;
     font-size: 24px;
@@ -467,6 +472,7 @@ label {
 
   .direitos {
     font-size: 16px;
+    text-align: center;
   }
 
   .frases-sobre img {
