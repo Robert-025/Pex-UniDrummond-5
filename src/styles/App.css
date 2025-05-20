@@ -499,6 +499,7 @@ label {
   }
 
   .espaco-botao a {
+    font-size: 1.05rem;
     width: auto;
     padding: 0 0.6rem;
   }
