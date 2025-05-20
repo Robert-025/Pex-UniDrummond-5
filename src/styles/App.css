@@ -494,6 +494,10 @@ label {
     font-size: 1.05rem;
   }
 
+  .frases p {
+    font-size: 1.05rem;
+  }
+
   .espaco-botao a {
     width: auto;
     padding: 0 0.6rem;
