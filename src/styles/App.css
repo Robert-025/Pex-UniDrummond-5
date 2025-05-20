@@ -155,7 +155,7 @@ footer {
 
 .conteudo-titulo {
   width: 100%;
-  height: 4.5rem;
+  height: auto;
   background-color: #fdf9ff;
   border-radius: 1.25rem;
   border-color: #000;
@@ -433,6 +433,10 @@ label {
     align-items: center;
   }
 
+  .titulo {
+    text-align: center;
+  }
+
   .frases-sobre {
     width: 87%;
     height: auto;
@@ -440,5 +444,37 @@ label {
     display: grid;
     justify-items: center;
     text-align: center;
+  }
+
+  .info-pessoal {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 510px) {
+
+  .content {
+    width: 85%;
+  }
+
+  .titulo h1 {
+    font-size: 24px;
+  }
+
+  .links-cabecalho a {
+    font-size: 18px;
+  }
+
+  .direitos {
+    font-size: 16px;
+  }
+
+  .frases-sobre img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .info-pessoal {
+    font-size: 16px;
   }
 }
