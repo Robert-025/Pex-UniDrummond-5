@@ -7,7 +7,7 @@ import '../styles/App.css';
 
 export default function App() {
   return (
-    
+
 
     <div className='body'>
 
@@ -52,8 +52,24 @@ export default function App() {
               </p>
             </div>
           </div>
+          <div className="conteudo-dados">
+            <div className="frases">
+              <p>
+                Links de Referência
+              </p>
+              <Link className='linkedin'
+                to="https://b10sec.com/br/importancia-da-conscientizacao-do-usuario-em-seguranca-cibernetica/">
+                https://b10sec.com/br/importancia-da-conscientizacao-do-usuario-em-seguranca-cibernetica/ <br/><br/></Link>
+              <Link className='linkedin'
+                to="https://www.fecomercio.com.br/noticia/saiba-como-se-proteger-de-golpes-virtuais">
+                https://www.fecomercio.com.br/noticia/saiba-como-se-proteger-de-golpes-virtuais <br/><br/></Link>
+              <Link className='linkedin'
+                to="https://www.gov.br/esporte/pt-br/acesso-a-informacao/lgpd">
+                https://www.gov.br/esporte/pt-br/acesso-a-informacao/lgpd</Link>
+            </div>
+          </div>
           <div className="espaco-botao">
-            <Link to="/quiz">Iniciar o Quiz</Link>
+            <Link className="btn-inicial" to="/quiz">Iniciar o Quiz</Link>
           </div>
         </div>
       </main>
