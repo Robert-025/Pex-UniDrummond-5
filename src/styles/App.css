@@ -26,9 +26,22 @@ header {
   justify-content: space-between;
 }
 
+.esquerdo-header {
+  display: flex;
+}
+
 .esquerdo-header img {
   width: 100px;
   height: 100px;
+}
+
+.esquerdo-header p {
+  font-size: 18px;
+  color: #fff;
+  align-self: center;
+  justify-self: center;
+  padding: 5px;
+  text-decoration: underline;
 }
 
 .direito-header {

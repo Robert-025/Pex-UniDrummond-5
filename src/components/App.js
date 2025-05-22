@@ -19,7 +19,7 @@ export default function App() {
         <div className="content">
           <div className="conteudo-titulo">
             <div className="titulo">
-              <h1>Início</h1>
+              <h1>Cibersegurança - O essencial sobre proteção de dados</h1>
             </div>
           </div>
           <div className="conteudo-dados">
@@ -54,18 +54,22 @@ export default function App() {
           </div>
           <div className="conteudo-dados">
             <div className="frases">
-              <p>
-                Links de Referência
-              </p>
+              <p>Caso queira saber mais, leia as informações dos sites abaixo. Você também tem a liberdade de pesquisar sobre o tema.</p>
               <Link className='linkedin'
                 to="https://b10sec.com/br/importancia-da-conscientizacao-do-usuario-em-seguranca-cibernetica/">
-                1º Link - Gov.br <br/><br/></Link>
+                1º Link - Gov.br <br /><br /></Link>
               <Link className='linkedin'
                 to="https://www.fecomercio.com.br/noticia/saiba-como-se-proteger-de-golpes-virtuais">
-                2º Link - fecomercio.com.br <br/><br/></Link>
+                2º Link - fecomercio.com.br <br /><br /></Link>
               <Link className='linkedin'
                 to="https://www.gov.br/esporte/pt-br/acesso-a-informacao/lgpd">
-                3º Link - b10sec.com.br</Link>
+                3º Link - b10sec.com.br <br /><br /></Link>
+              <Link className='linkedin'
+                to="https://www.gov.br/anatel/pt-br/assuntos/dicas-contra-fraudes">
+                4º Link - Gov.br <br /><br /></Link>
+              <Link className='linkedin'
+                to="https://www.docusign.com/pt-br/blog/seguranca-da-informacao">
+                5º Link - docusign.com</Link>
             </div>
           </div>
           <div className="espaco-botao">

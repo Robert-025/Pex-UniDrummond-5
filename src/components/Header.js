@@ -7,6 +7,7 @@ export default function Header() {
             <div className="content-cabecalho">
                 <div className="esquerdo-header">
                     <img src={Logo} alt="Logo do site" />
+                    <p>Tech<br />Hackers</p>
                 </div>
                 <div className="direito-header">
                     <nav className="links-cabecalho">
