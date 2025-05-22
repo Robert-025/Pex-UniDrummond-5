@@ -59,13 +59,13 @@ export default function App() {
               </p>
               <Link className='linkedin'
                 to="https://b10sec.com/br/importancia-da-conscientizacao-do-usuario-em-seguranca-cibernetica/">
-                https://b10sec.com/br/importancia-da-conscientizacao-do-usuario-em-seguranca-cibernetica/ <br/><br/></Link>
+                1º Link - Gov.br <br/><br/></Link>
               <Link className='linkedin'
                 to="https://www.fecomercio.com.br/noticia/saiba-como-se-proteger-de-golpes-virtuais">
-                https://www.fecomercio.com.br/noticia/saiba-como-se-proteger-de-golpes-virtuais <br/><br/></Link>
+                2º Link - fecomercio.com.br <br/><br/></Link>
               <Link className='linkedin'
                 to="https://www.gov.br/esporte/pt-br/acesso-a-informacao/lgpd">
-                https://www.gov.br/esporte/pt-br/acesso-a-informacao/lgpd</Link>
+                3º Link - b10sec.com.br</Link>
             </div>
           </div>
           <div className="espaco-botao">

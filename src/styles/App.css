@@ -498,6 +498,10 @@ label {
     font-size: 1.05rem;
   }
 
+  .frases a {
+    font-size: 1.05rem;
+  }
+
   .btn-inicial a {
     font-size: 1.05rem;
     width: auto;
