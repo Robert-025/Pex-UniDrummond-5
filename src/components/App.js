@@ -54,6 +54,13 @@ export default function App() {
           </div>
           <div className="conteudo-dados">
             <div className="frases">
+              <p>
+                Ao navegar pela internet, é importante estar atento não apenas ao que você acessa, mas também a como suas informações podem ser utilizadas por terceiros, muitas vezes sem o seu conhecimento. <br />A educação digital é uma ferramenta poderosa na prevenção de fraudes, pois quanto mais você entende o funcionamento do ambiente online, mais preparado está para identificar riscos e agir com segurança.
+              </p>
+            </div>
+          </div>
+          <div className="conteudo-dados">
+            <div className="frases">
               <p>Caso queira saber mais, leia as informações dos sites abaixo. Você também tem a liberdade de pesquisar sobre o tema.</p>
               <Link className='linkedin'
                 to="https://b10sec.com/br/importancia-da-conscientizacao-do-usuario-em-seguranca-cibernetica/">
