@@ -26,7 +26,7 @@ header {
   justify-content: space-between;
 }
 
-.esquerdo-header {
+.esquerdo-header a {
   display: flex;
 }
 
