@@ -19,7 +19,7 @@ export default function App() {
         <div className="content">
           <div className="conteudo-titulo">
             <div className="titulo">
-              <h1>Cibersegurança - O essencial sobre proteção de dados</h1>
+              <h1>Segurança Online: Você Sabe Mesmo Como Se Proteger?</h1>
             </div>
           </div>
           <div className="conteudo-dados">
