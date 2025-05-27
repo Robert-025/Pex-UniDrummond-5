@@ -403,7 +403,7 @@ label {
 
 .linkedin {
   text-decoration: underline;
-  padding-right: 1rem;
+  /* padding-right: 1rem; */
   color: blue;
 }
 
