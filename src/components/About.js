@@ -5,6 +5,8 @@ import Gustavo from '../img/gustavo.png'
 
 import { Link } from 'react-router-dom';
 
+import Logo from '../img/logo.png';
+
 import Header from './Header.js';
 import Footer from './Footer.js';
 
@@ -14,7 +16,10 @@ export default function About() {
     return (
         <div className='body'>
 
-            <title>Quiz App</title>
+            <head>
+                <title>Tech Hackers</title>
+                <link rel="icon" href={Logo} alt="Logo do site"/>
+            </head>
 
             <Header />
 

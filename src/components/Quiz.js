@@ -3,13 +3,18 @@ import Questions from './Questions.js';
 import Header from './Header.js';
 import Footer from './Footer.js';
 
+import Logo from '../img/logo.png';
+
 import '../styles/App.css';
 
 export default function Quiz() {
   return (
     <div className='body'>
 
-      <title>Quiz App</title>
+      <head>
+        <title>Tech Hackers</title>
+        <link rel="icon" href={Logo} alt="Logo do site"/>
+      </head>
       
       <Header />
 
