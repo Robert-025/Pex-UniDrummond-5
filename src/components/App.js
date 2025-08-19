@@ -8,6 +8,11 @@ import Footer from './Footer.js';
 import '../styles/App.css';
 
 export default function App() {
+
+  window.onload = function () {
+    window.scrollTo(0, 0);
+  };
+
   return (
 
 
@@ -15,7 +20,7 @@ export default function App() {
 
       <head>
         <title>Tech Hackers</title>
-        <link rel="icon" href={Logo} alt="Logo do site"/>
+        <link rel="icon" href={Logo} alt="Logo do site" />
       </head>
 
       <Header />
@@ -85,7 +90,9 @@ export default function App() {
             </div>
           </div>
           <div className="espaco-botao">
-            <Link className="btn-inicial" to="/quiz">Iniciar o Quiz</Link>
+            <Link className="btn-inicial" to="/quiz" onClick={window.onload = function () {window.scrollTo(0, 0);}}>
+              Iniciar o Quiz
+            </Link>
           </div>
         </div>
       </main>

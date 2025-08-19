@@ -13,12 +13,17 @@ import Footer from './Footer.js';
 import '../styles/App.css';
 
 export default function About() {
+
+    window.onload = function () {
+        window.scrollTo(0, 0);
+    };
+
     return (
         <div className='body'>
 
             <head>
                 <title>Tech Hackers</title>
-                <link rel="icon" href={Logo} alt="Logo do site"/>
+                <link rel="icon" href={Logo} alt="Logo do site" />
             </head>
 
             <Header />
